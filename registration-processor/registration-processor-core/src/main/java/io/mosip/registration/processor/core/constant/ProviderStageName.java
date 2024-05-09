@@ -13,7 +13,8 @@ public enum  ProviderStageName {
     BIO_AUTH("bioauth"),
     MANUAL_VERIFICATION("manualverification"),
     UIN_GENERATOR("uingenerator"),
-    MESSAGE_SENDER("messagesender");
+    MESSAGE_SENDER("messagesender"),
+    TRAINING("training");
 
     private String value;
 

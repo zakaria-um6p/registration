@@ -203,6 +203,10 @@ public class MessageBusAddress implements Serializable {
 	public static final MessageBusAddress PACKET_CLASSIFIER_BUS_OUT = new MessageBusAddress("packet-classifier-bus-out");
 	
 	
+	public static final MessageBusAddress TRAINING_BUS_IN = new MessageBusAddress("training-bus-in");
+	
+	public static final MessageBusAddress TRAINING_BUS_OUT = new MessageBusAddress("training-bus-out");
+	
 	/*
 	 * (non-Javadoc)
 	 *
